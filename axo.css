@@ -1,0 +1,49 @@
+body {
+    background-color: #34495E;
+    font-family: Verdana;
+    color: white;
+}
+
+header {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 88px;
+
+    background-color: #1C2833;
+
+    box-shadow: 0px 5px 10px #000;
+    -webkit-box-shadow: 0px 5px 10px #000;
+    -moz-box-shadow: 0px 5px 10px #000;
+}
+
+.header_a {
+    text-decoration: none;
+}
+
+.header_li {
+    display: inline-block;
+
+    list-style-type: none;
+
+    height: 30px;
+    margin: 20px 10px 0px 10px;
+}
+
+.header_img {
+    height: 100%;
+}
+
+.header_li:hover #first {
+    display: none;
+}
+
+#second {
+    display: none;
+}
+
+.header_li:hover #second {
+    display: block;
+}
